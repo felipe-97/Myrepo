@@ -5,10 +5,12 @@
 </head>
   <body bgcolor="A6DC3F">
 
+<form name="frm1" action="menu.html" method="POST">
+
 <center> <table border="0" aling="center" width="10"> </center>
 
   <tr>
-  <td>   
+  <td>
   <center>
   <P>BIENVENIDOS A MI TIENDA <P/> </center>
   <center> LOGIN <br> <br> </center>
@@ -16,12 +18,12 @@
   </tr>
 
 <tr>
-<td><img src="icons/user.png" width="29"> <b>Usuario: </b> <br>
+<td><img src="icons/user.png" width="29" > <b>Usuario: </b> <br>
 </td>
 </tr>
 
 <tr>
-<td><center> <input type="text"> <br> <br> </center>
+<td><center> <input type="text" name="Usuario" placeholder="Ingrese Usuario" required > <br> <br> </center>
 </td>
 </tr>
 
@@ -30,7 +32,7 @@
 </td>
 </tr>
 <tr>
-<td><center> <input type="password"> <br> <br></center>
+<td><center> <input type="password" name="password" placeholder="Ingrese Contrase" required > <br> <br></center>
 </td>
 </tr>
 <tr>
@@ -39,7 +41,7 @@
  </center> <br>
  </td>
 
-</tr>
+</tr>   
  <tr>
    <td><center>
      <a href="https://es-la.facebook.com/" target=_"BLANK"><img src="icons/face.png" width="50" ></a>
@@ -55,5 +57,7 @@
 </center>
   </td>
 </tr>
+
+</form>
   </body>
 </html>
