@@ -4,14 +4,14 @@
           <link rel="icon" type="image/icon" href="icons/formulario.jpg">
     </head>
     <body bgcolor="A6DC3F">
-
+    
      <br><br>
-<form name="form2" action="menu.html" method="post">                            
+<form name="form2" action="menu.html" method="post">
          <table border="0" align="center" color="white">
           <tr> <td colspan="2" align ="center">FORMULARIO DE REGISTRO</center> </td></tr>
 
       <tr><td align="left"><font face="Times new Roman" size="3" color="#0E0000">Nombres: <font face="Times new Roman" size="3" color="#FB1520">*  </td>
-        <td><input type="text" name="user" border="1" placeholder="" required onKeypress="if (event.keyCode >45 && event.keyCode  <58) event.returnValue = false;"></td></tr>
+        <td><input type="text" name="user" border="1" placeholder="" required onKeypress="if (event.keyCode >45 && event.keyCode  <58) event.returnValue = false;"   ></td></tr>
 
         <tr><td align="left"><font face="Times new Roman" size="3" color="#0E0000">Apellidos: <font face="Times new Roman" size="3" color="#FB1520">*  </td>
           <td><input type="text" name="user" border="1" placeholder="" required onKeypress="if (event.keyCode >45 && event.keyCode  <58) event.returnValue = false;" > </td></tr>
@@ -26,7 +26,7 @@
             </select></td>
 
 			<tr><td align="left"><font face="Times new Roman" size="3" color="#0E0000">Numero de identificaión: <font face="Times new Roman" size="3" color="#FB1520">*  </td>
-        <td><input type="text"  value="" maxlength="10" onKeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false; required"></td></tr>
+        <td><input type="text"  value="" maxlength="10" required onKeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false; required"></td></tr>
 
 		<tr><td align="left"><font face="Times new Roman" size="3" color="#0E0000">Género: <font face="Times new Roman" size="3" color="#FB1520">*  </td>
           <td>  <select name="select">Género:
@@ -40,7 +40,7 @@
         <td><input type="text"  value="" maxlength="10" onKeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false; required"></td></tr>
 
 		<tr><td align="left"><font face="Times new Roman" size="3" color="#0E0000">Celular: <font face="Times new Roman" size="3" color="#FB1520">* </td>
-        <td><input type="text"  value="" maxlength="10" onKeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false; required"> </td></tr>
+        <td><input type="text"  value="" maxlength="10" required onKeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false; required"> </td></tr>
 
 		<tr><td align="left"><font face="Times new Roman" size="3" color="#0E0000">Departamento nac.: <font face="Times new Roman" size="3" color="#FB1520">*  </td>
           <td>  <select name="select">Departamento:
@@ -171,7 +171,7 @@
 
 
       <tr>  <td align="left"><font face="Times new Roman" size="3" color="#0E0000">Foto</td>
-	  <td> <input type="password" name="password" placeholder="" required   align="center"> <input type="file" name="archivosubido">
+	  <td> <input type="password" name="password" placeholder=""align="center"> <input type="file" name="archivosubido">
 	   </td></tr>
 
 	   <td colspan="2" align ="center"> <center><input type ="submit" value="REGISTRARSE"></center> </td>
