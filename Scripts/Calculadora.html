@@ -1,0 +1,64 @@
+<html>
+<head>
+  <title>Calculadora  </title>
+  <link rel="icon" type="image/ico" href="icons/calcu.png" />
+</head>
+  <body bgcolor="A6DC3F">
+
+<form name="frm1" action="Calculadora.php" method="POST">
+
+<center> <table border="0" aling="center" width="10"> </center>
+
+  <tr><td>
+  <center>
+  <P>CALCULADORA BASICA <P/> </center> <br>
+  </td> </tr>
+
+<tr>
+<td><font face "Times New Roman" size="4" color="#010200"> <b>Digite  Primer Numero </b> <br>
+</td>
+</tr>
+
+<tr>
+<td><input type="number" name="Numero1" placeholder="Ingrese Primer Numero" required > <br> <br> </center>
+</td>
+</tr>
+
+<tr>
+<td><font face "Times New Roman" size="4" color="#010200"> <b>Digite Segundo Numero </b> <br>
+</td>
+</tr>
+
+<tr>
+<td><input type="number" name="Numero2" placeholder="Ingrese Segundo Numero" required > <br> <br> </center>
+</td>
+</tr>
+
+<tr>
+<td> <font face "Times New Roman" size="4" color="#010200"> <b>  Seleccione Operacion </b> <br></font>
+
+<tr>    
+<td> <select name="OPERACIONES">
+<option value="sum">SUMA</option>
+<option value="res">RESTA</option>
+<option value="mul">MULTIPLICACION</option>
+<option value="div">DIVICION</option>
+<option value="pot">POTENCIA</option>
+<option value="rc">RAIZ CUADRADA</option>
+<option value="tod">TODAS LAS ANTERIORES</option>
+</select>
+</td>
+</tr>
+
+<tr>
+ <td> <center> <br>
+   <input type ="submit" value="Calcular">
+ </center> <br>
+ </td>
+</tr>
+
+
+
+</form>
+  </body>
+</html>
