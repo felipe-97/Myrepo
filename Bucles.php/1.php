@@ -1,3 +1,5 @@
+<body bgcolor="#A6DC3F">
+  <center>PUNTO 1</center>
 <?php
  echo "1";
  echo "<br>2";
@@ -10,4 +12,3 @@
  echo "<br>9";
  echo "<br>10";
 ?>
-   
